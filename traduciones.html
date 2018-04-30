@@ -1,0 +1,19 @@
+<html>
+	<head>
+		<script src="traduciones.js"></script>
+		<script src="controller_lang.js"></script>
+		<script>
+			function print(key) {
+				alert('msg: ' + getTraduction(key));
+			}
+		</script>
+	</head>
+	<body>
+		<button type="button" onclick="print('firstName')">Print FirstName</button>
+		<button type="button" onclick="print('lastName')">Print LastName</button>
+		<br><br>
+		<button type="button" onclick="changeLang('es_ES')">ES</button>
+		<button type="button" onclick="changeLang('es_CA')">CA</button>
+		<button type="button" onclick="changeLang('en_EN')">EN</button>
+	</body>
+</html>
